@@ -8,6 +8,8 @@ body{
     background-size: cover;
 }
 
+
+
 body::before{
     content:'';
 	position: absolute;
@@ -46,9 +48,11 @@ p{
     text-align: center;
 }
 
-#image{
-    max-width: 80%;
-    height: 50%;
+img{
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
 }
 
 table{
