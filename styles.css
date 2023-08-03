@@ -1,0 +1,111 @@
+body{
+    padding: 10% 10%;
+    border: 5px solid black;
+    color: whitesmoke;
+    background-image: url(https://w.forfun.com/fetch/8b/8b149d3345500f4ecba7338e2d4c1e25.jpeg);
+    background-position:center center ;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+body::before{
+    content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.separed{
+    border-bottom: 2px solid black;
+}
+
+h1,h2{
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+
+p{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+#title{
+    color: red;
+    text-shadow: 1px 1px black;
+}
+
+.mj{
+    color: red;
+}
+
+#img-div{
+    align-items: center;
+    text-align: center;
+}
+
+#image{
+    max-width: 80%;
+    height: 50%;
+}
+
+table{
+    background-color: rgba(8, 7, 7, 0.637);
+}
+
+.table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr,td{
+    border: 1px solid red;
+    padding: 5px;
+}
+
+th{
+    background-color: rgb(236, 63, 63);
+}
+
+ul{
+    background-color: rgba(8, 7, 7, 0.637);
+    
+}
+
+button{
+    background-color: rgb(248, 76, 76);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    outline: none;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    margin-bottom: 14em;
+}
+
+.tribute-link{
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: rgb(243, 119, 119);
+    color: white;
+}
+
+.attribution{
+    text-align: center;
+    text-shadow: #020224 1px 1px;
+}
+.attribution a{
+    color: #6fa4da ;
+}
